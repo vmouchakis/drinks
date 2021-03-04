@@ -1,0 +1,39 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.drinks.gr/">
+  <rdf:Description rdf:about="http://www.drinks.gr/Jameson">
+    <j.0:is rdf:resource="http://www.drinks.gr/ποτό"/>
+    <j.0:made_in rdf:resource="http://www.drinks.gr/Ιρλανδία"/>
+    <j.0:is rdf:resource="http://www.drinks.gr/Ουίσκι"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.drinks.gr/ούζο">
+    <j.0:is rdf:resource="http://www.drinks.gr/ποτό"/>
+    <j.0:has rdf:resource="http://www.drinks.gr/βαθμοί_αλκοόλ_40"/>
+    <j.0:costs rdf:resource="http://www.drinks.gr/κόστος_15_ευρώ"/>
+    <j.0:made_in rdf:resource="http://www.drinks.gr/Ελλάδα"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.drinks.gr/κρασί">
+    <j.0:is rdf:resource="http://www.drinks.gr/ποτό"/>
+    <j.0:costs rdf:resource="http://www.drinks.gr/κόστος_15_ευρώ"/>
+    <j.0:made_in rdf:resource="http://www.drinks.gr/Γαλλία"/>
+    <j.0:made_in rdf:resource="http://www.drinks.gr/Ελλάδα"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.drinks.gr/Grey_Goose">
+    <j.0:is rdf:resource="http://www.drinks.gr/ποτό"/>
+    <j.0:has rdf:resource="http://www.drinks.gr/βαθμοί_αλκοόλ_40"/>
+    <j.0:made_in rdf:resource="http://www.drinks.gr/Γαλλία"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.drinks.gr/Guinness">
+    <j.0:is rdf:resource="http://www.drinks.gr/ποτό"/>
+    <j.0:is rdf:resource="http://www.drinks.gr/μπύρα"/>
+    <j.0:made_in rdf:resource="http://www.drinks.gr/Ιρλανδία"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.drinks.gr/Jack_Daniels">
+    <j.0:is rdf:resource="http://www.drinks.gr/ποτό"/>
+    <j.0:is rdf:resource="http://www.drinks.gr/Ουίσκι"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.drinks.gr/Johny_Walker_Black_Lable">
+    <j.0:is rdf:resource="http://www.drinks.gr/ποτό"/>
+    <j.0:has rdf:resource="http://www.drinks.gr/βαθμοί_αλκοόλ_40"/>
+  </rdf:Description>
+</rdf:RDF>
